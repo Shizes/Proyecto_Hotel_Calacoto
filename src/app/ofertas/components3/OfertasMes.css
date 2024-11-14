@@ -1,0 +1,19 @@
+.ofertas-mes {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .ofertas-mes-title {
+    font-family: 'Dancing Script', cursive;
+    color: var(--highlight-1); /* Utiliza el color rosa para el título */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ofertas-mes-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

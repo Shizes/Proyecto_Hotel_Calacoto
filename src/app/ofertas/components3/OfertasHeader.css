@@ -1,0 +1,53 @@
+.header-container {
+  position: relative;
+  background-image: url('/Oferts/fondo_ofertas.png'); /* Asegúrate de que el nombre sea correcto */
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Ajusta según sea necesario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--foreground); /* Usa los colores definidos en tus variables */
+  text-align: center;
+}
+
+.header-text {
+  position: relative;
+  z-index: 1;
+  color: var(--foreground);
+  max-width: 800px; /* Ajusta el ancho máximo según el diseño */
+  padding: 20px;
+}
+
+.header-title {
+  font-family: 'Dancing Script', cursive;
+  color: var(--highlight-1); /* Color rosa específico para el título */
+  font-size: 3rem; /* Ajusta el tamaño */
+  margin-bottom: 10px;
+}
+
+.header-subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--foreground);
+  margin-bottom: 20px;
+}
+
+.header-description {
+  font-size: 1rem;
+  color: var(--foreground);
+}
+
+.scroll-button {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.scroll-button img {
+  width: 30px; /* Ajusta el tamaño */
+  transition: transform 0.3s;
+}
+
+.scroll-button img:hover {
+  transform: translateY(5px); /* Animación para el efecto de hover */
+}
