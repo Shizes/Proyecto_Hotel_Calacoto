@@ -1,5 +1,5 @@
 .header {
-    background-image: url('/fondo_habitaciones.png'); /* Ruta de la imagen de fondo */
+    background-image: url('/habitacion/fondo_habitaciones.png'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
     height: 400px;
