@@ -1,0 +1,83 @@
+.eventosPage {
+    text-align: center;
+    padding: 2rem;
+    color: #4b4b4b;
+  }
+  
+  /* Encabezado con imagen de fondo */
+  .header {
+    position: relative;
+    background-image: url('/events/fondo_eventos.png'); /* Cambia al nombre de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 1rem;
+    color: white;
+  }
+  
+  .headerOverlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  .header p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #ffffff;
+  }
+  
+  .subtext {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #d6006e;
+  }
+  
+  .scrollButton {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Tipos de Eventos */
+  .tiposEventos h2 {
+    font-size: 2rem;
+    color: #d6006e;
+    margin-top: 2rem;
+  }
+  
+  .eventosGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .evento {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .evento h3 {
+    font-size: 1.5rem;
+    color: #d6006e;
+    margin: 0.5rem 0;
+  }
+  
+  .evento p {
+    padding: 0 1rem 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
