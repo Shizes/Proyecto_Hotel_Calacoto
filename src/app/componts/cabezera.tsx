@@ -1,14 +1,15 @@
 import React from 'react'
-import Image from 'next/image'
 import "./cabezera.css"
 import Navbar from './navbar'
-
+import Card from './cardp'
 const cabezera = () => {
   return (
     <div className='cont-cabezera'>
         <header>
     <Navbar/>
+    
     </header>
+    <Card/>
     </div>
   )
 }
