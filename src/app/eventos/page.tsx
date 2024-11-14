@@ -1,11 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './eventos.module.css';
+import Navbar from '../componts/navbar';
 
 const EventosPage = () => {
   return (
     <div className={styles.eventosPage}>
-      {/* Encabezado con imagen de fondo */}
+      {/* Encabezado con imagen de fondo */} 
+      <Navbar/>
       <header className={styles.header}>
         <div className={styles.headerOverlay}>
           <h1>Eventos</h1>
