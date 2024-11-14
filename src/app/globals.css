@@ -2,20 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Estilos generales del body */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-background text-foreground;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Fuente específica para h1 */
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: var(--highlight-1); /* Color rosa para h1 */
+}
+
+/* Definición de variables de color */
+:root {
+  --background: #ffffff;        /* Fondo blanco */
+  --foreground: #171717;        /* Texto negro general */
+  --highlight-1: #A91F8C;       /* Color para los h1 */
+  --highlight-2: #E87DD1;       /* Otro color rosa */
+  --accent-green: #498C49;      /* Verde para ciertos textos */
+  --input-text: #D0D0D0;        /* Color de texto dentro de los inputs */
+}
+
+/* Aplicación de clases de color */
+.text-highlight-2 {
+  color: var(--highlight-2); /* Clase para color #E87DD1 */
+}
+
+.text-accent-green {
+  color: var(--accent-green); /* Clase para color verde */
+}
+
+/* Estilos de los inputs */
+input {
+  color: var(--input-text); /* Color de texto dentro de los inputs */
 }

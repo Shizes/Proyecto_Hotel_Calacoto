@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 1512px;
+    height: 120px;
+    background-color: var(--background);
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .navbar-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Enlaces de navegación */
+  .navbar-links {
+    display: flex;
+    gap: 25px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--foreground); /* Texto negro general */
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .navbar-links a:hover {
+    color: var(--highlight-1); /* Otro color rosa para el hover */
+  }
+  
+  /* Botones de registro e inicio de sesión */
+  .navbar-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-buttons button {
+    background-color: var(--highlight-1); /* Color rosa para botones */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-buttons button:hover {
+    background-color: var(--highlight-2); /* Color rosa alternativo para hover */
+  }
+  

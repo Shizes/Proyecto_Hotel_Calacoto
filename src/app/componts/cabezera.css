@@ -1,0 +1,15 @@
+.cont-cabezera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .logo {
+    width: 147px;
+    height: 100px;
+    flex-shrink: 0;
+  }
+  
