@@ -1,9 +1,13 @@
 import React from 'react';
 import styles from './page.module.css';
+import Navbar from '../componts/navbar';
+
 
 const HabitacionesPage = () => {
   return (
+    
     <div>
+        <Navbar/>
       {/* Encabezado con imagen de fondo */}
       <section className={styles.header}>
         <div className={styles.overlay}>
